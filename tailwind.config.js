@@ -1,8 +1,7 @@
 const colors = require("tailwindcss/colors");
 
 module.exports = {
-  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
-  darkMode: false, // or 'media' or 'class'
+  content: ["./src/**/*.{js,jsx,ts,tsx,html}"],
   mode: "jit",
   theme: {
     colors: {
@@ -58,7 +57,6 @@ module.exports = {
           800: "#050A0E",
           850: "#26282C",
           900: "#95959E",
-
         },
         orange: {
           250: "#FF5810",
@@ -76,11 +74,11 @@ module.exports = {
           750: "#6246FB",
           300: "#4658BB",
         },
-        red: { 
+        red: {
           150: "#D32F2F",
           250: "#FF6262",
-          650: "#FF5D5D"
-         },
+          650: "#FF5D5D",
+        },
         pink: {
           150: "#EC4899",
           250: "#FFB5B5",
@@ -98,7 +96,7 @@ module.exports = {
         blue: {
           350: "#76d9e6",
         },
-        
+
         customGray: {
           100: "#252A34",
           150: "#31353B",
